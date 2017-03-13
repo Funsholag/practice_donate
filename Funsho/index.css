@@ -1,0 +1,261 @@
+
+.navs {
+  display: inline;
+  padding-right: 150px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: rgba(227, 242, 240, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+#logo {
+  width: 50px;
+}
+
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.textone {
+  font-size: 30px;
+  text-align: center;
+}
+
+.donate {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+
+.donatenow:hover {
+  background-color: #d66f46;
+}
+
+.donatenow {
+  background-color: #459bd8;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+@media (min-width: 300px) {
+  body {
+    width: 100%;
+  }
+  .heading {
+    margin-top: 140px;
+    width: 100%;
+  }
+  .navs {
+  display: block;
+  }
+
+}
+
+@media (min-width: 550px) {
+
+}
+
+@media (min-width: 750px) {
+
+}
+
+@media (min-width: 1000px) {
+  .navs {
+    display: inline;
+  }
+  .heading {
+    margin-top: 70px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+}
+body {
+  background-color: white;
+}
+.money {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.Change {
+  font-size: 25px;
+  font: serif;
+  text-align: center;
+}
+
+.GiveUsMoney {
+  text-align: left;
+}
+.funds {
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: blue;
+}
+
+.amilli {
+  display: inline;
+  padding-right: 0px;
+  margin-left: 0px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+.fi_hunna {
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+.foh_hunnid {
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+.tree_hunnid {
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+.two_hunna {
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+.benjamin {
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-color: black;
+}
+
+.freedom {
+  text-align: left;
+}
+
+
+
+.dropdown {
+  border: 1px solid black;
+  width: 140px;
+  height: 92px;
+  background-color: cornsilk;
+  transition-property: background-color, width, height;
+  transition-duration: 1s;
+}
+
+.dropdown:hover {
+  width: 200px;
+  height: 80px;
+  color: black;
+}
+
+/*.dropdown {*/
+  /*position:relative;*/
+  /*display: inline-block;*/
+  /*width: 100%;*/
+/*}*/
+
+/*.dropdown-content {*/
+  /*display: run-in;*/
+  /*position: absolute;*/
+  /*min-width: 160px;*/
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  /*z-index: 1;*/
+/*}*/
+
+/*.dropdown-content a {*/
+  /*color: black;*/
+  /*padding: 12px 16px;*/
+  /*text-decoration: none;;*/
+  /*display: block;*/
+/*}*/
+
+/*.dropdown-content a:hover {background-color: #f1f1f1}*/
+
+.square {
+  padding-left: 0px;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+}
+
+.Hector {
+  padding-top: 0px;
+}
+
+.Sarah {
+  padding-top: 10px;
+}
+
+.Funsho {
+  padding-top: 10px;
+}
+
+body {
+  padding: 20px;
+}
+
+@media (min-width: 400px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media (min-width: 550px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media (min-width: 750px) {
+  body{
+    background-color: white;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: white;
+  }
+}
