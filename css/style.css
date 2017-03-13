@@ -46,23 +46,82 @@ body {
 
 .donate {
   text-decoration: none;
+  border: 3px solid;
   color: black;
   font-size: 40px;
+  background-color: #459bd8;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 900px;
+  margin-top: 100px;
+  margin: 0 auto;
 }
 
-.donatenow:hover {
+.donate:hover {
   background-color: #d66f46;
 }
 
 .donatenow {
-  background-color: #459bd8;
   text-align: center;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  width: 250px;
-  margin: 0 auto;
+  display: inline-block;
+  width: 900px;
+  margin-top: 100px;
+  margin: 0px auto;
+
+}
+
+.pics {
+  text-align: center;
+}
+
+.sarah {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sarah:hover {
+  width: 300px;
+  height: 300px;
+
+}
+
+.hector {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.hector:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.funshoone {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.funshoone:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.about {
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 300px) {
@@ -78,6 +137,10 @@ body {
   }
   img {
     width: 100%;
+  }
+  .donatenow {
+    width: 100%;
+    margin: 0px auto;
   }
 }
 
@@ -95,6 +158,10 @@ body {
   }
   .heading {
     margin-top: 70px;
+  }
+  .donatenow {
+    width: 100%;
+    margin: 0px auto;
   }
 
 }
