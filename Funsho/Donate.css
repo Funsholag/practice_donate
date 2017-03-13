@@ -77,7 +77,6 @@ body {
   .navs {
   display: block;
   }
-
 }
 
 @media (min-width: 550px) {
@@ -125,19 +124,39 @@ body {
   color: blue;
 }
 
-.amilli {
-  display: inline;
-  padding-right: 0px;
+.million {
+  display: inline-block;
+  padding right: 0px;
   margin-left: 0px;
   border: 1px solid black;
   border-color: black;
 }
 
-.fi_hunna {
+.million:hover {
+  color: red;
+}
+
+.amilli {
   display: inline-block;
   margin-left: 5px;
   border: 1px solid black;
   border-color: black;
+}
+
+.amilli:hover {
+  color: red;
+}
+
+
+.fi_hunna {
+  display: inline-block;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-color: inherit;
+}
+
+.fi_hunna:hover{
+  color: red;
 }
 
 .foh_hunnid {
@@ -147,11 +166,19 @@ body {
   border-color: black;
 }
 
+.foh_hunnid:hover {
+  color: red;
+}
+
 .tree_hunnid {
   display: inline-block;
   margin-left: 5px;
   border: 1px solid black;
-  border-color: black;
+  border-color: inherit;
+}
+
+.tree_hunnid:hover{
+  color: red;
 }
 
 .two_hunna {
@@ -161,11 +188,19 @@ body {
   border-color: black;
 }
 
+.two_hunna:hover {
+  color: red;
+}
+
 .benjamin {
   display: inline-block;
   margin-left: 5px;
   border: 1px solid black;
   border-color: black;
+}
+
+.benjamin:hover {
+  color: red;
 }
 
 .freedom {
@@ -184,6 +219,7 @@ body {
 }
 
 .dropdown:hover {
+  display: hidden;
   width: 200px;
   height: 80px;
   color: black;
@@ -218,6 +254,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 200px;
+  list-style-type: none;
 }
 
 .Hector {
