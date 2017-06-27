@@ -5,6 +5,7 @@
 
 .navlink {
   text-decoration: none;
+  text-align: center;
   color: black;
   font-size: 20px;
 }
@@ -23,7 +24,8 @@ a:hover {
 }
 
 #logo {
-  width: 50px;
+  width: 30px;
+  height: auto;
 }
 
 
@@ -93,6 +95,7 @@ li.student {
   display: block;
   width: 350px;
   padding: 20px;
+  margin: 0 auto;
   text-align: center;
 }
 
